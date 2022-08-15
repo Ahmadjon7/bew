@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 40px;
+    background-color: red;
+    &__nav{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    &__list{
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    &__item{
+        padding: 10px 20px;
+        background-color: #fafafa;
+        &:hover{
+            background-color: antiquewhite;
+        }
+    }
+    
+}
